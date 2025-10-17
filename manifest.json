@@ -1,0 +1,19 @@
+{
+  "dataStudio": {
+    "name": "Word Cloud Community Visualization",
+    "logoUrl": "https://lookerstudio.google.com/favicon.ico",
+    "organization": "Looker Studio Community",
+    "description": "Word Cloud visualization for Looker Studio",
+    "supportUrl": "https://github.com/lookerstudio-community/wordcloud",
+    "privacyPolicyUrl": "https://policies.google.com/privacy"
+  },
+  "visualization": {
+    "id": "wordcloud",
+    "script": "wordcloud.js",
+    "css": "wordcloud.css",
+    "resources": [
+      "https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"
+    ]
+  }
+}
